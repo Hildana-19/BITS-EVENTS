@@ -1,0 +1,108 @@
+.registration-container{
+
+    max-width:800px;
+
+    margin:auto;
+
+}
+
+
+.registration-form{
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.form-group{
+
+    margin-bottom:20px;
+
+}
+
+
+
+
+
+.form-group label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-weight:500;
+
+}
+
+
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:10px;
+
+    font-family:'Poppins',sans-serif;
+
+    font-size:15px;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+
+
+
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{
+
+    border-color:#90EE90;
+
+    box-shadow:0 0 8px rgba(144,238,144,0.4);
+
+}
+
+
+.form-group textarea{
+
+    resize:none;
+
+    height:130px;
+
+}
+
+
+.registration-form .primary-btn{
+
+    border:none;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+
+
+.registration-form .primary-btn:hover{
+
+    transform:translateY(-3px);
+
+}

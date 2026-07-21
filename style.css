@@ -137,7 +137,6 @@ header{
     min-height:90vh;
     display:flex;
     align-items:center;
-    justify-content:space-between;
     gap:50px;
     background: url("assets/background.JPG") no-repeat center center/cover;
     position: relative;
